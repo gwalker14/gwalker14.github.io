@@ -1,29 +1,19 @@
-var list = ["we shall see ",
-			"yes",
-			"no" ,
-			"ask again later",
-			"maybe",
-			"signs point to yes",
-			"as is see it, yes",
-			"certainly",
-			"doubtful" ,
-			"try again later"];
 
-function randomNumber(){
-	return Math.floor (Math.random()* 10);
+
+function testjs () {
+	alert("text ") ;
 }
 
-				//just testing javascript
-function testJs() {
-	alert("test") ;
-}
-
-function shake8ball() {
+function shake8ball () {
 	document.getElementById("eightball").src="magic8ball.jpg"; 
-	//alert ("we shall see!"); 
+	alert ("we shall see!");
+} 
 
-	//change paragraph to magic 8 ball text
-	document.getElementById("results").innerHTML=list[randomNumber()]; 
+/* 
+Below is the code for tic tac toe
+*/ 
 
-	//alert(RandomNumber()) ;
+//handles x and o signs 
+function turn(location) {
+	document.getElementById(location).innerHTML="X";
 }
