@@ -96,11 +96,11 @@ function createFruit(){
  * NOTE: notice use of new variable tempdir 
  */ 
 window.addEventListener("keypress", function key(event){ 
-    //if key is W set direction up 
+    //if key is w set direction up 
     var key = event.keyCode; 
     if(direction != -1 && (key == 119 || key == 87)) 
         tempdir = 0; 
-    //if key is S set direction down 
+    //if key is s set direction down 
     else if(direction != 0 && (key == 115 || key == 83)) 
         tempdir = -1; 
     //if key is A set direction left 

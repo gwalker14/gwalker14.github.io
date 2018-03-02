@@ -1,4 +1,4 @@
-*{ 
+2*{ 
     padding:0; 
     margin:0; 
 } 
@@ -13,11 +13,11 @@ td{
     background-color:blank; 
 } 
 .snake{ 
-    background-color:white; 
+    background-color:red; 
 } 
 .wall{ 
-    background-color:green; 
+    background-color:pink; 
 } 
 .fruit{ 
-    background-color:red; 
+    background-color:purple; 
 } 
