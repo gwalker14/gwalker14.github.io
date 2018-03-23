@@ -1,0 +1,31 @@
+body{
+		background-color:pink;
+		color:white;  
+		text-align: center;
+}
+a:link{
+		background-color:purple;
+		background-color:white;  
+} 
+a:visited{
+		background-color:purple;
+		background-color:white;
+} 
+a:hover{ 
+		background-color:yellow; 
+		background-color:black;
+ } 
+#container{ 
+ 		background-color:white; 
+ 		color:blue; 
+ 		margin:30px; 
+ 		padding:25px; 
+ 		border-radius:40px; 
+ 		text-align:center;
+  }  
+ #canvas{  
+ 	background-color:blue; 
+ 	margin: 20px;
+ 	padding: 50px;
+  }
+

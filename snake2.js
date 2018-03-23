@@ -14,7 +14,7 @@ var fX;
 var fY; 
 var running = false; 
 var gameOver = false; 
-var direction = -1; // up = 0, down = -1, left = 1, right = 2 
+var direction = -1; // up = 0, down = 1, left = 2, right = 3 
 var int; 
 var score = 0; 
 //temporary direction (this fixes users pressing keys too quickly and turning into themselves) 
@@ -102,13 +102,13 @@ window.addEventListener("keypress", function key(event){
         tempdir = 0; 
     //if key is s set direction down 
     else if(direction != 0 && (key == 115 || key == 83)) 
-        tempdir = -1; 
+        tempdir = -1
     //if key is A set direction left 
     else if(direction != 2 && (key == 97 || key == 65)) 
-        tempdir = 1; 
+       tempdir = 1
     //if key is D set direction right 
     else if(direction != 1 && (key == 100 || key == 68)) 
-        tempdir = 2; 
+         tempdir = 2
     if(!running) 
         running = true; 
     else if(key == 32) 
