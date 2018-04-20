@@ -1,11 +1,13 @@
 <html>
 	<head> 
 		<li>
-			<a href="eightball"
+			<a> href= "eightball" </a> 
+
+
 		</li> 
-		<li>project 2</li> 
-		<li>project 3</li> 
-		<li>project 4</li>
+		<li>tic tac toe</li> 
+		<li>eightball</li> 
+		<li>snake</li>
 	</head>
 <html> 
 
