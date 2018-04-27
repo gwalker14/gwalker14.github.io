@@ -19,6 +19,10 @@ var int;
 var score = 0; 
 //temporary direction (this fixes users pressing keys too quickly and turning into themselves) 
 var tempdir = direction; 
+
+function reset(){
+    window.location.reload(true);
+}
  
 /** 
 * entry point of the game 
