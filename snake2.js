@@ -33,6 +33,10 @@ function init(){
     createSnake(); 
     createFruit(); 
 } 
+
+function resetGame(){
+    location.reload();
+}
  
 /** 
 * Generates the map for the snake 
