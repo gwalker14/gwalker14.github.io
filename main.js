@@ -22,7 +22,7 @@ function turn(location) {
 	if(document.getElementById(location).innerHTML == ""){
 		//switch between X and O
 		if(character == "X"){
-			character = "O"; 
+			character == "O"; 
 		}
 		else{
 			character="X";
